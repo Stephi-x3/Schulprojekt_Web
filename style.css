@@ -1,0 +1,160 @@
+body{
+    margin: 0%;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+}
+h1{
+    font-size: 1.3em;
+}
+h2{
+    font-size: 1.1em;
+}
+p{
+    font-size: 1em;
+}
+
+/*header*/
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #9D91FF, #c02153);
+    font-family: "Sofia";
+    font-weight: bolder;
+}
+
+.container-header-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    height: 100%;    
+}
+#header-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 2.5em;
+}
+
+/*Navigationsleiste*/
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+nav li:hover{
+    color: whitesmoke;
+    border-bottom: black solid;
+    transition: all 0.1s linear;
+}
+nav ul{
+    list-style-type: none;
+    margin-left: 0px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*main index.html*/
+.index-main{
+    display: flex;
+}
+
+.index-main-text{
+    width: 50%;
+    padding-left: 45px;
+    padding-right: 10px;
+}
+
+#index-main-img{
+    width: 50%;
+}
+
+#link-to-contact{
+    font-size: 1em;
+    background-image: linear-gradient(to right, #9D91FF, #c02153);
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-left: 0px;
+    font-weight: bolder;
+    color: black;
+}
+
+#link-to-contact:hover{
+    color: whitesmoke;
+    background-color: grey;
+}
+
+/*main kontakt.html*/
+#send-message{
+    font-size: 1em;
+    background-image: linear-gradient(to right, #9D91FF, #c02153);
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: black;
+    width: 25%;
+}
+
+#send-message:hover{
+    color: whitesmoke;
+    background-color: grey;  
+}
+
+#contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+#container-send-message{
+    text-align: center;
+}
+
+.column-elements{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-main h1, .contact-main p{
+    text-align: center;
+}
+
+.contact-main h1{
+    margin-bottom: 10px;
+}
+
+/*footer*/
+footer{
+    background: linear-gradient(to bottom, grey, rgb(87, 87, 87));
+    color: whitesmoke;
+    font-size: 0.8em;
+    text-align: right;
+    padding: 5px;
+}
+footer a{
+    color: whitesmoke;
+}
+footer p, a{
+    margin: 3px;
+}
+
