@@ -20,6 +20,7 @@ header{
     background: linear-gradient(to right, #9D91FF, #c02153);
     font-family: "Sofia";
     font-weight: bolder;
+    height: 10vh;
 }
 
 .container-header-logo{
@@ -39,6 +40,10 @@ header{
     height: 100%;
     font-size: 2.5em;
 }
+#header-title:hover{
+    color: blanchedalmond;
+    transition: all 0.8s linear;
+}
 
 /*Navigationsleiste*/
 nav{
@@ -54,10 +59,10 @@ nav li{
     font-size: 1.5em;
     border: transparent solid;
 }
-nav li:hover{
-    color: whitesmoke;
-    border-bottom: black solid;
-    transition: all 0.1s linear;
+nav li>*:hover{
+    border-bottom: blanchedalmond solid;
+    color: blanchedalmond;
+    transition: all 0.8s linear;
 }
 nav ul{
     list-style-type: none;
@@ -82,13 +87,13 @@ a{
 
 #index-main-img{
     width: 50%;
+    object-fit: cover;
 }
 
 #link-to-contact{
     font-size: 1em;
     background-image: linear-gradient(to right, #9D91FF, #c02153);
     border-radius: 15px;
-    transition: all 0.5s linear;
     border: none;
     padding: 5px 10px 5px 10px;
     margin-left: 0px;
@@ -99,6 +104,8 @@ a{
 #link-to-contact:hover{
     color: whitesmoke;
     background-color: grey;
+    border: black solid;
+    transition: all 0.8s linear;
 }
 
 /*main kontakt.html*/
