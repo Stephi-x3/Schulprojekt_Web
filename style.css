@@ -103,6 +103,10 @@ main{
     flex: 1 1 0;
 }
 
+@media screen {
+    /*changing to flex-direction column - img under main-text*/
+}
+
 #link-to-contact{
     font-size: 1.3em;
     background-image: linear-gradient(to right, #9D91FF, #c02153);
