@@ -56,7 +56,6 @@ nav{
 nav li{
     font-size: 1.8em;
     border: transparent solid;
-    flex: 1;
     align-self: center;
 }
 nav li>*:hover{
