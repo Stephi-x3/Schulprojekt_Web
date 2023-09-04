@@ -183,3 +183,19 @@ footer>*{
     padding: 5px;
 }
 
+/*animation*/
+
+/*.border-animated{
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(to right, #372d80, #c02153);
+    animation: animate-header 4s linear infinite;
+}
+
+@keyframes animate-header{
+    0%{
+        transform: translateX(-100%);
+    }
+}*/
