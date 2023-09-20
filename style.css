@@ -1,5 +1,7 @@
-body{
+*{
     margin: 0%;
+}
+body{
     font-family: "Roboto",Arial,Helvetica,sans-serif;
 }
 main h1{
@@ -92,7 +94,10 @@ main{
     flex-direction: column;
     flex: 1 1 100px;
     justify-content: center;
-    margin-left: 15px;
+}
+
+.index-main-text *{
+    padding: 15px;
 }
 
 #index-main-img{
